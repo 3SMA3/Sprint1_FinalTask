@@ -54,6 +54,7 @@ git clone git@github.com:3SMA3/Sprint1_FinalTask.git
   cd Sprint1_FinalTask
   ```
 Теперь вы можете запустить проект , но для этогт нужно чтобы был установлен Go версии 1.23.2
+
 Команда для запуска проекта
 ```
 go run ./cmd/main.go
