@@ -36,3 +36,10 @@
 ## Архитектура проекта
 * cmd/
   * main.go
+* internal/
+  * application/
+* pkg/
+  * calculation/
+    * calculation.go
+    * errors.go
+    * calculation_test.go
