@@ -1,5 +1,3 @@
-[FinalTaskFirstSprint-main.zip](https://github.com/user-attachments/files/18223084/FinalTaskFirstSprint-main.zip)
-Всё решение там
 # Сервис подсчёта арифметических выражений
 ## О проекте
 Веб-сервис: пользователь отправляет арифметическое выражение по протоколу HTTP и получает в ответ его результат. Калькулятор обрабатывает только однозначные числа, скобки вида '(' ')' и арифметические операции:
@@ -114,5 +112,5 @@ curl --location '127.0.0.1:4040/api/v1/calculate' --header 'Content-Type: applic
 ```
 {"error":"You can't divide by zero"}
 ```
+Всё решение там:
 [FinalTaskFirstSprint-main.zip](https://github.com/user-attachments/files/18223084/FinalTaskFirstSprint-main.zip)
-Всё решение там
