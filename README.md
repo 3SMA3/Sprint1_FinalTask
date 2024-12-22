@@ -52,7 +52,9 @@ git clone git@github.com:3SMA3/Sprint1_FinalTask.git
 
 После этого вам нужно перейти в папку с проектом
 
-  `cd Sprint1_FinalTask`
+  ```
+  cd Sprint1_FinalTask
+  ```
 
 Для прекращения работы можете нажать сочетание клавиш Ctrl+C
 ## Примеры использования со всеми возможными сценариями
