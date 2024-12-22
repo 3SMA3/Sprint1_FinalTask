@@ -70,3 +70,47 @@ cURL команда с ответом сервиса 200:
   "expression": "2+2*2"
 }'
 ```
+Ответ:
+```
+{"result":"6.00000000"}
+```
+cURL команда с ответом сервиса 400:
+```
+curl --location '127.0.0.1:4040/api/v1/calculate' --header 'Content-Type: application/json' --data '{
+  "expression": "2+2*2
+}'
+```
+Ответ:
+```
+{"error":"Bad request"}
+```
+cURL команда с ответом сервиса 405:
+```
+curl --request GET \ --url '127.0.0.1:4040/api/v1/calculate' --header 'Content-Type: application/json' --data '{
+  "expression": "2+2*2"
+}'
+```
+Ответ:
+```
+{"error":"You can use only POST method"}
+```
+cURL команда с ответом сервиса 422:
+```
+curl --location '127.0.0.1:4040/api/v1/calculate' --header 'Content-Type: application/json' --data '{
+  "expression": "2+2*2)"
+}'
+```
+Ответ:
+```
+{"error":"Expression is not valid"}
+```
+Также команда cURL с ответом сервиса 422, где вы пытаетесь разделить на 0:
+```
+curl --location '127.0.0.1:4040/api/v1/calculate' --header 'Content-Type: application/json' --data '{
+  "expression": "(2+2*2)/0"
+}'
+```
+Ответ:
+```
+{"error":"You can't divide by zero"}
+```
