@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"encoding/json"
 	"fmt"
-	"https://github.com/3SMA3/Sprint1_FinalTask/new/main/internal/application"
+	"github.com/3SMA3/Sprint1_FinalTask/new/main/internal/application"
 	"io"
 	"net/http"
 	"net/http/httptest"
