@@ -46,7 +46,9 @@
 ## Быстрый старт
 Для начала нужно склонировать репозиторий командой
 
-  `git clone git@github.com:3SMA3/Sprint1_FinalTask.git`
+  ```
+git clone git@github.com:3SMA3/Sprint1_FinalTask.git
+  ```
 
 После этого вам нужно перейти в папку с проектом
 
