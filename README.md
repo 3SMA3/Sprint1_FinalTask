@@ -113,4 +113,4 @@ curl --location '127.0.0.1:4040/api/v1/calculate' --header 'Content-Type: applic
 {"error":"You can't divide by zero"}
 ```
 Всё решение там:
-[FinalTaskFirstSprint-main.zip](https://github.com/user-attachments/files/18223084/FinalTaskFirstSprint-main.zip)
+[FinalSprint1_FinalTask-main-main.zip](https://github.com/user-attachments/files/18223084/Sprint1_FinalTask-main-main.zip)
