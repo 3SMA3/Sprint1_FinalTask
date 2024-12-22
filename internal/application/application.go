@@ -3,7 +3,7 @@ package application
 import (
 	"encoding/json"
 	"errors"
-	"https://github.com/3SMA3/Sprint1_FinalTask"
+	"https://github.com/3SMA3/Sprint1_FinalTask/pkg/calculation"
 	"io"
 	"net/http"
 	"os"
