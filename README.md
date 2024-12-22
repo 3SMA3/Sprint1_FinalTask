@@ -45,4 +45,5 @@
     * **`calculation_test.go`**
 ## Быстрый старт
 Для начала нужно склонировать репозиторий командой
+
 `git clone git@github.com:3SMA3/Sprint1_FinalTask.git`
